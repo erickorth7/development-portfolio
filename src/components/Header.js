@@ -6,7 +6,7 @@ export default function Header(props) {
         <section id='header'>
             <div className='row'>
                 <div className='col-6'>
-                    <img className='cloud1' src='/assets/images/cloud.png' />
+                    <img className='cloud1' src='/Development-Portfolio/assets/images/cloud.png' />
                     <h1 className='boldHeading mt-2'>Hi. I'm Eric</h1>
                     <h3 className='boldHeading'>I'm a developer</h3>
                 </div>

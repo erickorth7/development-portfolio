@@ -13,12 +13,12 @@ export default function Header(props) {
             </div>
             <div className='row'>
                 <div className='col-12'>
-                    <img className='cloud2' src='/assets/images/cloud.png' />
+                    <img className='cloud2' src='/Development-Portfolio/assets/images/cloud.png' />
                 </div>
             </div>
             <div className='row'>
                 <div className='col-12'>
-                    <img className='mountainImage' src='/assets/images/mountain.png' />
+                    <img className='mountainImage' src='/Development-Portfolio/assets/images/mountain.png' />
                 </div>
             </div>
         </section>

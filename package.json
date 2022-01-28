@@ -1,8 +1,8 @@
 {
   "name": "eric-korth-portfolio",
   "version": "0.1.0",
-  "private": true,
   "homepage": "https://erickorth7.github.io/Development-Portfolio",
+  "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
@@ -19,7 +19,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

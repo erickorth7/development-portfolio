@@ -1,7 +1,7 @@
 export const projectsWeb = [
     {
         name: 'Calculator',
-        imageUrl: '/assets/images/reactCalculator.png',
+        imageUrl: '/Development-Portfolio/assets/images/reactCalculator.png',
         description: 'A calculator application built using React',
         technologyUsed: ['React.js'],
         liveLink: '#',
@@ -9,7 +9,7 @@ export const projectsWeb = [
     },
     {
         name: 'Dawg Jawg',
-        imageUrl: '/assets/images/dawgJawg.png',
+        imageUrl: './Development-Portfolio/assets/images/dawgJawg.png',
         description: 'A website for a dog walking company, Dawg Jawg',
         technologyUsed: ['Bootstrap'],
         liveLink: '#',

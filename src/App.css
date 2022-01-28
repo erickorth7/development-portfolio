@@ -20,6 +20,16 @@ hr {
   opacity: 1 !important;
 }
 
+a {
+  text-decoration: inherit;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: inherit;
+  color: grey;
+}
+
 .boldHeading {
   font-weight: bold;
 }

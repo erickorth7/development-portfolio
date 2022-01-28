@@ -13,8 +13,8 @@ export default function Contact(props) {
                 </div>
                 <div className='row'>
                     <div className='col-12'>
-                        <Button className='contactButton m-2'><FaEnvelope /> Email</Button>
-                        <Button className='contactButton m-2'><FaLinkedin /> LinkedIn</Button>
+                        <a href='mailto:ericbenjaminkorth@gmail.com'><Button className='contactButton m-2'><FaEnvelope /> Email</Button></a>
+                        <a target='_blank_' href='https://www.linkedin.com/in/eric-korth-412398184/'><Button className='contactButton m-2'><FaLinkedin /> LinkedIn</Button></a>
                     </div>
                 </div>
             </section>
@@ -26,9 +26,8 @@ export default function Contact(props) {
                 </div>
                 <div className='row'>
                     <div className='col'>
-                        <FaFacebook className='socialIcons' />
-                        <FaInstagram className='socialIcons'/>
-                        <FaGithub className='socialIcons'/>
+                        <a target='_blank_' href='https://www.facebook.com/eric.korth.3/'><FaFacebook className='socialIcons' /></a>
+                        <a target='_blank_' href='https://github.com/erickorth7'><FaGithub className='socialIcons'/></a>
                     </div>
                 </div>
             </section>

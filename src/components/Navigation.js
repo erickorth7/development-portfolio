@@ -6,7 +6,7 @@ export default function Navigation(props) {
         <section id='navigation'>
             <Navbar expand='md'>
                 <NavbarBrand href='#'>
-                    <img className='brandLogo' src='/assets/images/ebklogo.png' />
+                    <img className='brandLogo' src='/Development-Portfolio/assets/images/ebklogo.png' />
                 </NavbarBrand>
                     <Nav navbar>
                         <NavItem>

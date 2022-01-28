@@ -4,23 +4,23 @@ export const projectsWeb = [
         imageUrl: '/Development-Portfolio/assets/images/reactCalculator.png',
         description: 'A calculator application built using React',
         technologyUsed: ['React.js'],
-        liveLink: '#',
+        liveLink: 'https://erickorth7.github.io/react-calculator/',
         githubLink: 'https://github.com/erickorth7/react-calculator'
     },
-    {
-        name: 'Dawg Jawg',
-        imageUrl: '/Development-Portfolio/assets/images/dawgJawg.png',
-        description: 'A website for a dog walking company, Dawg Jawg',
-        technologyUsed: ['Bootstrap'],
-        liveLink: '#',
-        githubLink: 'https://github.com/erickorth7/DawgJawg'
-    },
+    // {
+    //     name: 'Dawg Jawg',
+    //     imageUrl: '/Development-Portfolio/assets/images/dawgJawg.png',
+    //     description: 'A website for a dog walking company, Dawg Jawg',
+    //     technologyUsed: ['Bootstrap'],
+    //     liveLink: '#',
+    //     githubLink: 'https://github.com/erickorth7/DawgJawg'
+    // },
     {
         name: 'CodeMon',
         imageUrl: '/Development-Portfolio/assets/images/codemon.png',
         description: 'A coding playground application built using JavaScript',
         technologyUsed: ['JavaScript'],
-        liveLink: '#',
+        liveLink: 'https://erickorth7.github.io/CodeMon-Code-Playground/',
         githubLink: 'https://github.com/erickorth7/CodeMon-Code-Playground'
     },
     {
@@ -28,7 +28,7 @@ export const projectsWeb = [
         imageUrl: '/Development-Portfolio/assets/images/drum-machine.png',
         description: 'A digital drum soundboard with lo-fi sound samples',
         technologyUsed: ['JavaScript'],
-        liveLink: '#',
+        liveLink: 'https://erickorth7.github.io/Drum-Machine/',
         githubLink: 'https://github.com/erickorth7/Drum-Machine'
     },
     {
@@ -36,7 +36,7 @@ export const projectsWeb = [
         imageUrl: '/Development-Portfolio/assets/images/amesite_website.png',
         description: 'A collaborative website re-design for Amesite Inc.',
         technologyUsed: ['WordPress', 'PHP'],
-        liveLink: '#',
+        liveLink: 'https://amesite.com/',
         githubLink: 'https://amesite.com/'
     }
 ];

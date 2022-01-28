@@ -24,7 +24,7 @@ export default function Skills(props) {
                 </div>
                 <div className='col-12 col-sm-9'>
                     <h2 className='boldHeading'>UI/UX</h2>
-                    <p className='paragraph'>The front-end is vitally important to any application. I enjoy working with front-end technologies to develop visual/structural elements of applications.</p>
+                    <p className='paragraph'>I'm passionate about creating great looking applications. Using color theory and typography, I create apps that are not just functional, but visually aesthetic.</p>
                 </div>
                 <div id='desktopView' className='col-9 col-sm-3'>
                     <img className='skillsImage' src='/Development-Portfolio/assets/images/design.png' />
@@ -36,7 +36,7 @@ export default function Skills(props) {
                 </div>
                 <div className='col-12 col-sm-9'>
                     <h2 className='boldHeading skillText'>Back-End Development</h2>
-                    <p className='paragraph skillText'>The front-end is vitally important to any application. I enjoy working with front-end technologies to develop visual/structural elements of applications.</p>
+                    <p className='paragraph skillText'>The back-end development handles the 'behind-the-scenes' functionality of web applications. Using back-end technologies, I'm able to manage the webpage through a server and work with databases.</p>
                 </div>
             </div>
         </section>

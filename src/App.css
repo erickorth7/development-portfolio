@@ -1,3 +1,33 @@
+:root {
+  --primary-bg-color: #145374;
+  --light-bg-color: #FEFBF3;
+  --secondary-bg-color: #348498;
+  --dark: #11000F;
+  --light: #fff;
+  --link: #DDDDDD;
+}
+
+body {
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+hr {
+  width: 75%;
+  height: 2px !important;
+  margin: 0 auto;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  opacity: 1 !important;
+}
+
+.boldHeading {
+  font-weight: bold;
+}
+
+.paragraph {
+  font-size: 18px;
+}
+
 .App {
   text-align: center;
 }
@@ -5,6 +35,180 @@
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.main-wrapper {
+  background-color: var(--primary-bg-color);
+  overflow-x: hidden;
+}
+
+/* NAVIGATION SECTION */
+#navigation {
+  padding: 0 5%;
+}
+
+.brandLogo {
+  width: 100px;
+  height: auto;
+}
+
+.navItem {
+  color: var(--link);
+  opacity: .7;
+}
+
+.navItem:hover {
+  color: var(--light);
+  opacity: 1;
+}
+
+.navItem:focus {
+  color: var(--link);
+  opacity: .7;
+}
+
+/* END OF NAVIGATION SECTION */
+
+/* HEADER SECTION */
+#header {
+  color: var(--light);
+  padding: 0 5%;
+}
+
+.cloud2 {
+  float: right;
+}
+
+/* END OF HEADER SECTION */
+
+/* ABOUT SECTION */
+#about {
+  background-color: var(--light-bg-color);
+  padding: 5%;
+}
+
+.aboutImage {
+  width: 200px;
+  height: auto;
+  border-radius: 50%;
+}
+/* END OF ABOUT SECTION */
+
+/* SKILLS SECTION */
+#skills {
+  background-color: var(--secondary-bg-color);
+  color: var(--light);
+  padding: 5% 15%;
+}
+
+.skillsImage {
+  border-radius: 50%;
+  width: 100%;
+  height: auto;
+}
+
+.skillText {
+  text-align: left;
+}
+
+#mobileView {
+  display: none;
+}
+
+#desktopView {
+  display: inline-block;
+}
+/* END OF SKILLS SECTION */
+
+/* PORTFOLIO SECTION */
+#portfolio {
+  background-color: var(--light-bg-color);
+  padding: 5%;
+}
+
+.cardContainer {
+  padding: 2%
+}
+
+.projectCard {
+  width: 85%;
+  height:auto;
+  margin: 0 auto;
+}
+
+.cardTitle {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.technologyUsed {
+  font-weight: bold;
+  font-size:1.2rem;
+}
+
+.cardImgMobile {
+  width: 50%;
+  height: auto;
+}
+/* END OF PORTFOLIO SECTION  */
+
+/* CONTACT SECTION */
+#contact {
+  color: var(--light);
+  padding: 5%;
+}
+
+.contactButton {
+  width: 150px;
+  background-color: #28A745;
+  border: none;
+}
+
+.contactButton:hover {
+  background-color: green;
+}
+
+.contactButton:focus {
+  background-color: green;
+}
+
+.socialIcons {
+  font-size: 1.8rem;
+  margin: 0 2rem;
+}
+/* END OF CONTACT SECTION */
+
+/* CONNECT SECTION */
+#connect {
+  background-color: var(--light-bg-color);
+  color: var(--dark);
+  padding: 5%;
+}
+/* END OF CONNECT SECTION */
+
+/* FOOTER SECTION */
+#footer {
+  background-color: var(--light-bg-color);
+  color: var(--dark);
+}
+/* END OF FOOTER SECTION */
+
+@media (max-width: 750px) {
+  #mobileView {
+    display: inline-block;
+  }
+  
+  #desktopView {
+    display: none;
+  }
+
+  .skillsImage {
+    margin: 2rem 0;
+  }
+
+  .skillText {
+    text-align: center !important;
+  }
 }
 
 @media (prefers-reduced-motion: no-preference) {

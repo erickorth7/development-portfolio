@@ -7,14 +7,14 @@ export const projectsWeb = [
         liveLink: 'https://erickorth7.github.io/react-calculator/',
         githubLink: 'https://github.com/erickorth7/react-calculator'
     },
-    // {
-    //     name: 'Dawg Jawg',
-    //     imageUrl: '/Development-Portfolio/assets/images/dawgJawg.png',
-    //     description: 'A website for a dog walking company, Dawg Jawg',
-    //     technologyUsed: ['Bootstrap'],
-    //     liveLink: '#',
-    //     githubLink: 'https://github.com/erickorth7/DawgJawg'
-    // },
+    {
+        name: 'Dawg Jawg',
+        imageUrl: '/Development-Portfolio/assets/images/dawgJawg.png',
+        description: 'A website for a dog walking company, Dawg Jawg',
+        technologyUsed: ['Bootstrap'],
+        liveLink: 'https://github.com/erickorth7/DawgJawg',
+        githubLink: 'https://github.com/erickorth7/DawgJawg'
+    },
     {
         name: 'CodeMon',
         imageUrl: '/Development-Portfolio/assets/images/codemon.png',

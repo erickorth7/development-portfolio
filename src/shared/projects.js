@@ -8,12 +8,12 @@ export const projectsWeb = [
         githubLink: 'https://github.com/erickorth7/react-calculator'
     },
     {
-        name: 'Dawg Jawg',
-        imageUrl: '/Development-Portfolio/assets/images/dawgJawg.png',
-        description: 'A website for a dog walking company, Dawg Jawg',
-        technologyUsed: ['Bootstrap'],
-        liveLink: 'https://github.com/erickorth7/DawgJawg',
-        githubLink: 'https://github.com/erickorth7/DawgJawg'
+        name: 'ToDo List',
+        imageUrl: '/Development-Portfolio/assets/images/ToDo.png',
+        description: 'A task tracking application that performs CRUD commands to a mongo database',
+        technologyUsed: ['MERN Stack'],
+        liveLink: 'https://shielded-ravine-90150.herokuapp.com/',
+        githubLink: '#'
     },
     {
         name: 'CodeMon',

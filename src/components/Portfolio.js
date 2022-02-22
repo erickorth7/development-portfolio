@@ -7,8 +7,6 @@ export default function Portfolio(props) {
     let lastWebProject = projectsWeb[projectsWeb.length - 1];
     let lastMobileProject = projectsMobile[projectsMobile.length - 1];
 
-    // alert(projectsWeb.indexOf(lastWebProject));
-
     return (
         <section id='portfolio'>
             <div className='row'>

@@ -13,7 +13,7 @@ export const projectsWeb = [
         description: 'A task tracking application that performs CRUD commands to a mongo database',
         technologyUsed: ['MERN Stack'],
         liveLink: 'https://shielded-ravine-90150.herokuapp.com/',
-        githubLink: '#'
+        githubLink: 'https://github.com/erickorth7'
     },
     {
         name: 'CodeMon',

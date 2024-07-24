@@ -1,7 +1,7 @@
 {
   "name": "eric-korth-portfolio",
   "version": "0.1.0",
-  "homepage": "https://erickorth7.github.io/Development-Portfolio",
+  "homepage": "https://erickorth7.github.io/development-portfolio",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",

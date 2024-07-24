@@ -11,7 +11,7 @@ export default function Skills(props) {
             </div>
             <div className='row align-items-center mb-4'>
                 <div className='col-9 col-sm-3 mx-auto'>
-                    <img className='skillsImage' src='/Development-Portfolio/assets/images/computer.png' />
+                    <img className='skillsImage' src='/development-portfolio/assets/images/computer.png' />
                 </div>
                 <div className='col-12 col-sm-9'>
                     <h2 className='boldHeading skillText'>Front-End Development</h2>
@@ -20,19 +20,19 @@ export default function Skills(props) {
             </div>
             <div className='row align-items-center mb-4'>
                 <div id='mobileView' className='col-9 col-sm-3 mx-auto'>
-                    <img className='skillsImage' src='/Development-Portfolio/assets/images/design.png' />
+                    <img className='skillsImage' src='/development-portfolio/assets/images/design.png' />
                 </div>
                 <div className='col-12 col-sm-9'>
                     <h2 className='boldHeading'>UI/UX</h2>
                     <p className='paragraph'>I'm passionate about creating great looking applications. Using color theory and typography, I create apps that are not just functional, but visually aesthetic.</p>
                 </div>
                 <div id='desktopView' className='col-9 col-sm-3'>
-                    <img className='skillsImage' src='/Development-Portfolio/assets/images/design.png' />
+                    <img className='skillsImage' src='/development-portfolio/assets/images/design.png' />
                 </div>
             </div>
             <div className='row align-items-center mb-4'>
                 <div className='col-9 col-sm-3 mx-auto'>
-                    <img className='skillsImage' src='/Development-Portfolio/assets/images/backendimage.png' />
+                    <img className='skillsImage' src='/development-portfolio/assets/images/backendimage.png' />
                 </div>
                 <div className='col-12 col-sm-9'>
                     <h2 className='boldHeading skillText'>Back-End Development</h2>

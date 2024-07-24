@@ -26,7 +26,6 @@ export default function Contact(props) {
                 </div>
                 <div className='row'>
                     <div className='col'>
-                        <a target='_blank_' href='https://www.facebook.com/eric.korth.3/'><FaFacebook className='socialIcons' /></a>
                         <a target='_blank_' href='https://github.com/erickorth7'><FaGithub className='socialIcons'/></a>
                     </div>
                 </div>
@@ -34,7 +33,7 @@ export default function Contact(props) {
             <section id='footer'>
                 <div className='row'>
                     <div className='col'>
-                        <p className='paragraph'>{'\u00A9'} 2022 Eric Korth</p>
+                        <p className='paragraph'>{'\u00A9'} 2024 Eric Korth</p>
                     </div>
                 </div>
             </section>

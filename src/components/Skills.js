@@ -6,7 +6,7 @@ export default function Skills(props) {
             <div className='row mb-4'>
                 <div className='col-12 col-sm-10 mx-auto'>
                     <h1 className='boldHeading mb-3'>My Stack</h1>
-                    <p className='paragraph'>I have working knowledge with full-stack development. My primary technology stack is MERN due to the continuity that is offered through having JS across the entire development process. However, I do have experience with LAMP stacks as well, and enjoy working with new technologies any chance I get. </p>
+                    <p className='paragraph'>I have working knowledge of full-stack development. My primary technology stack is MERN due to the continuity that is offered through having JS across the entire development process. However, I do have experience with LAMP stacks as well, and enjoy working with new technologies any chance I get. </p>
                 </div>
             </div>
             <div className='row align-items-center mb-4'>

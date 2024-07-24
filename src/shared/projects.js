@@ -1,19 +1,33 @@
 export const projectsWeb = [
     {
+        name: 'Liberty University Online Site',
+        imageUrl: '/Development-Portfolio/assets/images/luo_image.png',
+        description: 'A collaborative website re-design for Liberty University',
+        technologyUsed: ['WordPress', 'PHP', 'React.js'],
+        liveLink: 'https://www.liberty.edu/online',
+        linkText: 'View Company Website',
+        hasGithubLink: false,
+        githubLink: ''
+    },
+    {
+        name: 'Amesite Website',
+        imageUrl: '/Development-Portfolio/assets/images/amesite_website.png',
+        description: 'A collaborative website re-design for Amesite Inc.',
+        technologyUsed: ['WordPress', 'PHP'],
+        liveLink: 'https://amesite.com/',
+        linkText: 'View Company Website',
+        hasGithubLink: false,
+        githubLink: ''
+    },
+    {
         name: 'Calculator',
         imageUrl: '/Development-Portfolio/assets/images/reactCalculator.png',
         description: 'A calculator application built using React',
         technologyUsed: ['React.js'],
         liveLink: 'https://erickorth7.github.io/react-calculator/',
+        linkText: 'View Project',
+        hasGithubLink: true,
         githubLink: 'https://github.com/erickorth7/react-calculator'
-    },
-    {
-        name: 'ToDo List',
-        imageUrl: '/Development-Portfolio/assets/images/ToDo.png',
-        description: 'A task tracking application that performs CRUD commands to a mongo database',
-        technologyUsed: ['MERN Stack'],
-        liveLink: 'https://shielded-ravine-90150.herokuapp.com/',
-        githubLink: 'https://github.com/erickorth7'
     },
     {
         name: 'CodeMon',
@@ -21,6 +35,8 @@ export const projectsWeb = [
         description: 'A coding playground application built using JavaScript',
         technologyUsed: ['JavaScript'],
         liveLink: 'https://erickorth7.github.io/CodeMon-Code-Playground/',
+        linkText: 'View Project',
+        hasGithubLink: true,
         githubLink: 'https://github.com/erickorth7/CodeMon-Code-Playground'
     },
     {
@@ -29,15 +45,9 @@ export const projectsWeb = [
         description: 'A digital drum soundboard with lo-fi sound samples',
         technologyUsed: ['JavaScript'],
         liveLink: 'https://erickorth7.github.io/Drum-Machine/',
+        linkText: 'View Project',
+        hasGithubLink: true,
         githubLink: 'https://github.com/erickorth7/Drum-Machine'
-    },
-    {
-        name: 'Amesite Website',
-        imageUrl: '/Development-Portfolio/assets/images/amesite_website.png',
-        description: 'A collaborative website re-design for Amesite Inc.',
-        technologyUsed: ['WordPress', 'PHP'],
-        liveLink: 'https://amesite.com/',
-        githubLink: 'https://amesite.com/'
     }
 ];
 

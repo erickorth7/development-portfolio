@@ -26,7 +26,8 @@ export default function Portfolio(props) {
                                         <CardImg className='cardImg mt-2 mb-4' src={a.imageUrl}/>
                                         <CardText className='technologyUsed'>Built Using:</CardText>
                                         {a.technologyUsed.map(i => <CardText>{i}</CardText>)}
-                                        <a target='_blank_' href={a.liveLink}><Button className='w-75'>View Company Website</Button></a>
+                                        <a target='_blank_' href={a.liveLink}><Button className='w-75 m-2'>{a.linkText}</Button></a>
+                                        {a.hasGithubLink ? <a target='_blank_' href={a.githubLink}><Button className='w-75'>View Github Repository</Button></a> : ''}
                                     </CardBody>
                                 </Card>
                             </div>
@@ -39,8 +40,8 @@ export default function Portfolio(props) {
                                         <CardImg className='cardImg mt-2 mb-4' src={a.imageUrl}/>
                                         <CardText className='technologyUsed'>Built Using:</CardText>
                                         {a.technologyUsed.map(i => <CardText>{i}</CardText>)}
-                                        <a target='_blank_' href={a.liveLink}><Button className='w-50 m-2'>View Project</Button></a>
-                                        <a target='_blank_' href={a.githubLink}><Button className='w-50 m-2'>View Github Repository</Button></a>
+                                        <a target='_blank_' href={a.liveLink}><Button className='w-50 m-2'>{a.linkText}</Button></a>
+                                        {a.hasGithubLink ? <a target='_blank_' href={a.githubLink}><Button className='w-50 m-2'>View Github Repository</Button></a> : ''}
                                     </CardBody>
                                 </Card>
                             </div>       
@@ -53,8 +54,8 @@ export default function Portfolio(props) {
                                     <CardImg className='cardImg mt-2 mb-4' src={a.imageUrl}/>
                                     <CardText className='technologyUsed'>Built Using:</CardText>
                                     {a.technologyUsed.map(i => <CardText>{i}</CardText>)}
-                                    <a target='_blank_' href={a.liveLink}><Button className='w-50 m-2'>View Project</Button></a>
-                                    <a target='_blank_' href={a.githubLink}><Button className='w-50 m-2'>View Github Repository</Button></a>
+                                    <a target='_blank_' href={a.liveLink}><Button className='w-50 m-2'>{a.linkText}</Button></a>
+                                    {a.hasGithubLink ? <a target='_blank_' href={a.githubLink}><Button className='w-50 m-2'>View Github Repository</Button></a> : ''}
                                 </CardBody>
                             </Card>
                         </div>

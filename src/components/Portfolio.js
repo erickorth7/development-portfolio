@@ -24,7 +24,7 @@ export default function Portfolio(props) {
                                         <CardTitle className='cardTitle'>{a.name}</CardTitle>
                                         <CardText className='cardText'>{a.description}</CardText>
                                         <CardImg className='cardImg mt-2 mb-4' src={a.imageUrl}/>
-                                        <CardText className='technologyUsed'>Built Using:</CardText>
+                                        <CardText className='technologyUsed'>{a.name !== "Liberty University Online Site" ? "Built Using:" : ""}</CardText>
                                         {a.technologyUsed.map(i => <CardText>{i}</CardText>)}
                                         <a target='_blank_' href={a.liveLink}><Button className='w-75 m-2'>{a.linkText}</Button></a>
                                         {a.hasGithubLink ? <a target='_blank_' href={a.githubLink}><Button className='w-75'>View Github Repository</Button></a> : ''}
@@ -38,7 +38,7 @@ export default function Portfolio(props) {
                                         <CardTitle className='cardTitle'>{a.name}</CardTitle>
                                         <CardText className='cardText'>{a.description}</CardText>
                                         <CardImg className='cardImg mt-2 mb-4' src={a.imageUrl}/>
-                                        <CardText className='technologyUsed'>Built Using:</CardText>
+                                        <CardText className='technologyUsed'>{a.name !== "Liberty University Online Site" ? "Built Using:" : ""}</CardText>
                                         {a.technologyUsed.map(i => <CardText>{i}</CardText>)}
                                         <a target='_blank_' href={a.liveLink}><Button className='w-50 m-2'>{a.linkText}</Button></a>
                                         {a.hasGithubLink ? <a target='_blank_' href={a.githubLink}><Button className='w-50 m-2'>View Github Repository</Button></a> : ''}
@@ -52,7 +52,7 @@ export default function Portfolio(props) {
                                     <CardTitle className='cardTitle'>{a.name}</CardTitle>
                                     <CardText className='cardText'>{a.description}</CardText>
                                     <CardImg className='cardImg mt-2 mb-4' src={a.imageUrl}/>
-                                    <CardText className='technologyUsed'>Built Using:</CardText>
+                                    <CardText className='technologyUsed'>{a.name !== "Liberty University Online Site" ? "Built Using:" : ""}</CardText>
                                     {a.technologyUsed.map(i => <CardText>{i}</CardText>)}
                                     <a target='_blank_' href={a.liveLink}><Button className='w-50 m-2'>{a.linkText}</Button></a>
                                     {a.hasGithubLink ? <a target='_blank_' href={a.githubLink}><Button className='w-50 m-2'>View Github Repository</Button></a> : ''}
@@ -77,7 +77,7 @@ export default function Portfolio(props) {
                                         <CardTitle className='cardTitle'>{a.name}</CardTitle>
                                         <CardText className='cardText'>{a.description}</CardText>
                                         <CardImg className='cardImgMobile mt-2 mb-4' src={a.imageUrl}/>
-                                        <CardText className='technologyUsed'>Built Using:</CardText>
+                                        <CardText className='technologyUsed'>{a.name !== "Liberty University Online Site" ? "Built Using:" : ""}</CardText>
                                         {a.technologyUsed.map(i => <CardText>{i}</CardText>)}
                                         <a target='_blank_' href={a.githubLink}><Button className='w-40'>View Github Repository</Button></a>
                                     </CardBody>
@@ -90,7 +90,7 @@ export default function Portfolio(props) {
                                         <CardTitle className='cardTitle'>{a.name}</CardTitle>
                                         <CardText className='cardText'>{a.description}</CardText>
                                         <CardImg className='cardImgMobile mt-2 mb-4' src={a.imageUrl}/>
-                                        <CardText className='technologyUsed'>Built Using:</CardText>
+                                        <CardText className='technologyUsed'>{a.name !== "Liberty University Online Site" ? "Built Using:" : ""}</CardText>
                                         {a.technologyUsed.map(i => <CardText>{i}</CardText>)}
                                         <a target='_blank_' href={a.githubLink}><Button className='w-75'>View Github Repository</Button></a>
                                     </CardBody>
@@ -103,7 +103,7 @@ export default function Portfolio(props) {
                                     <CardTitle className='cardTitle'>{a.name}</CardTitle>
                                     <CardText className='cardText'>{a.description}</CardText>
                                     <CardImg className='cardImgMobile mt-2 mb-4' src={a.imageUrl}/>
-                                    <CardText className='technologyUsed'>Built Using:</CardText>
+                                    <CardText className='technologyUsed'>{a.name !== "Liberty University Online Site" ? "Built Using:" : ""}</CardText>
                                     {a.technologyUsed.map(i => <CardText>{i}</CardText>)}
                                     <a target='_blank_' href={a.githubLink}><Button className='w-75'>View Github Repository</Button></a>
                                 </CardBody>

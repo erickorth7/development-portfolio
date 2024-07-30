@@ -3,7 +3,7 @@ export const projectsWeb = [
         name: 'Liberty University Online Site',
         imageUrl: '/development-portfolio/assets/images/luo_image.png',
         description: 'A collaborative website re-design for Liberty University',
-        technologyUsed: ['WordPress', 'PHP', 'React.js'],
+        technologyUsed: [''],
         liveLink: 'https://www.liberty.edu/online',
         linkText: 'View Company Website',
         hasGithubLink: false,

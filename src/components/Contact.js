@@ -14,7 +14,7 @@ export default function Contact(props) {
                 <div className='row'>
                     <div className='col-12'>
                         <a href='mailto:ericbenjaminkorth@gmail.com'><Button className='contactButton m-2'><FaEnvelope /> Email</Button></a>
-                        <a target='_blank_' href='https://www.linkedin.com/in/eric-korth-412398184/'><Button className='contactButton m-2'><FaLinkedin /> LinkedIn</Button></a>
+                        <a target='_blank_' href='https://www.linkedin.com/in/eric-k-412398184/'><Button className='contactButton m-2'><FaLinkedin /> LinkedIn</Button></a>
                     </div>
                 </div>
             </section>
